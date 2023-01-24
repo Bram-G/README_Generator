@@ -10,6 +10,7 @@ const generateMarkDown = (
     usage,
     licenseBadge,
     licenseText,
+    gitUserLink,
     githubRepoLink
 ) => {
     return `${licenseBadge}
@@ -41,6 +42,7 @@ ${contributers}
 ${tests}
     
 ## Questions
+${gitUserLink}
 ${githubRepoLink}
     
 ## INSTALLATION
@@ -115,9 +117,11 @@ inquirer
         },
     ])
     .then((response) => {
+        const gitUserLink = `https://github.com/${response.gitUser}`
 
         if (response.license === "MIT"){
-            var licenseText = `Copyright  ${response.year} ${response.devName}
+            var licenseText = `
+            Copyright  ${response.year} ${response.devName}
 
             Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
             
@@ -147,7 +151,8 @@ inquirer
             var licenseBadge = "[![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)"
 
         }else if (response.license === "Apache"){
-            var licenseText = `Copyright ${response.year} ${response.devName}
+            var licenseText = `
+            Copyright ${response.year} ${response.devName}
 
             Licensed under the Apache License, Version 2.0 (the "License");
             you may not use this file except in compliance with the License.
@@ -180,7 +185,8 @@ inquirer
             along with this program.  If not, see <https://www.gnu.org/licenses/>.`
             var licenseBadge = "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)"
         }else{
-            var licenseText = `This is free and unencumbered software released into the public domain.
+            var licenseText = `
+            This is free and unencumbered software released into the public domain.
 
             Anyone is free to copy, modify, publish, use, compile, sell, or
             distribute this software, either in source code form or as a compiled
@@ -217,7 +223,7 @@ inquirer
                 response.usage,
                 licenseBadge,
                 licenseText,
-                response.gitUser,
+                gitUserLink,
                 response.githubRepoLink
             ),
             (err) => {
