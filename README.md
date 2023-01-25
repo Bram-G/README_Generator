@@ -1,57 +1,54 @@
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-# Beep boop
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# README-GENERATOR
 
 ## DESCRIPTION
-boop beep
+A readme generator that uses javascript, node and npm inquirer to create a fully formatted readme with a table of contents, description, list of contributers, tests, questions, installation instructions, usage, license badge and text.
 ## TABLE OF CONTENTS
 <details> 
 <summary> Table of Contents  </summary>
 
-[DESCRIPTION](idk#DESCRIPTION)
+[DESCRIPTION](https://github.com/Bram-G/README_Generator#DESCRIPTION)
     
-[CONTRIBUTERS](idk#CONTRIBUERS)
+[CONTRIBUTERS](https://github.com/Bram-G/README_Generator#CONTRIBUERS)
     
-[TESTS](idk#TESTS)
+[TESTS](https://github.com/Bram-G/README_Generator#TESTS)
     
-[QUESTIONS](idk#QUESTIONS)
+[QUESTIONS](https://github.com/Bram-G/README_Generator#QUESTIONS)
     
-[INSTALLATION](idk#INSTALLATION)
+[INSTALLATION](https://github.com/Bram-G/README_Generator#INSTALLATION)
     
-[USAGE](idk#USAGE)
+[USAGE](https://github.com/Bram-G/README_Generator#USAGE)
     
-[LICENSE](idk#LICENSE)
+[LICENSE](https://github.com/Bram-G/README_Generator#LICENSE)
 </details>    
     
 ## CONTRIBUTERS
-me
+Bram Gibson
     
 ## Tests
-plop it in there
+Download the files, open a terminal in the folder, type "npm install", then type "node index.js" and if the prompts show up the program is working correctly.
     
 ## Questions
-https://github.com/B-Herms
-idk
+If you have any questions about this project, reach out to me on my github or send me an email!
+
+https://github.com/Bram-G
+
+Bram@Bram.Bram
     
 ## INSTALLATION
-give it a go
+Download the javascript, open terminal in the folder, type npm install, then node index.js, and answer all of the questions. The questions will prompt you for a title, description, contributers, tests, installation, usage, what license to attach, your name, GitHub username, and GitHub repo link.
     
 ## USAGE
-well
+Do you need a quick readme for your new project but don't want to go through the hassle of formatting? this project will take whatever input you can give it and turn it into a formatted readme document ready for display on GitHub.
     
 ## LICENSE
 
-            Copyright 2023 Bob Herman
+            Copyright  2023 Bram Gibson
 
-            Licensed under the Apache License, Version 2.0 (the "License");
-            you may not use this file except in compliance with the License.
-            You may obtain a copy of the License at
-         
-              http://www.apache.org/licenses/LICENSE-2.0
-         
-            Unless required by applicable law or agreed to in writing, software
-            distributed under the License is distributed on an "AS IS" BASIS,
-            WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-            See the License for the specific language governing permissions and
-            limitations under the License.
+            Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+            
+            The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+            
+            THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
     

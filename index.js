@@ -11,6 +11,7 @@ const generateMarkDown = (
     licenseBadge,
     licenseText,
     gitUserLink,
+    devEmail,
     githubRepoLink
 ) => {
     return `${licenseBadge}
@@ -44,8 +45,11 @@ ${contributers}
 ${tests}
     
 ## Questions
+If you have any questions about this project, reach out to me on my github or send me an email!
+
 ${gitUserLink}
-${githubRepoLink}
+
+${devEmail}
     
 ## INSTALLATION
 ${installation}
@@ -111,6 +115,11 @@ inquirer
             type: "input",
             message: "What is your GitHub account name?",
             name: "gitUser",
+        },
+        {
+            type: "input",
+            message: "What is your email?",
+            name: "devEmail",
         },
         {
             type: "input",
@@ -226,6 +235,7 @@ inquirer
                 licenseBadge,
                 licenseText,
                 gitUserLink,
+                response.devEmail,
                 response.githubRepoLink
             ),
             (err) => {
