@@ -16,8 +16,12 @@ const generateMarkDown = (
     return `${licenseBadge}
 # ${title}
 
-
+## DESCRIPTION
+${description}
 ## TABLE OF CONTENTS
+<details> 
+<summary> Table of Contents  </summary>
+
 [DESCRIPTION](${githubRepoLink}#DESCRIPTION)
     
 [CONTRIBUTERS](${githubRepoLink}#CONTRIBUERS)
@@ -31,9 +35,7 @@ const generateMarkDown = (
 [USAGE](${githubRepoLink}#USAGE)
     
 [LICENSE](${githubRepoLink}#LICENSE)
-    
-## DESCRIPTION
-${description}
+</details>    
     
 ## CONTRIBUTERS
 ${contributers}

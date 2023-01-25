@@ -1,48 +1,57 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-# README-GENERATOR
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+# Beep boop
 
-
-## TABLE OF CONTENTS
-[DESCRIPTION](https://github.com/Bram-G/README_Generator#DESCRIPTION)
-    
-[CONTRIBUTERS](https://github.com/Bram-G/README_Generator#CONTRIBUERS)
-    
-[TESTS](https://github.com/Bram-G/README_Generator#TESTS)
-    
-[QUESTIONS](https://github.com/Bram-G/README_Generator#QUESTIONS)
-    
-[INSTALLATION](https://github.com/Bram-G/README_Generator#INSTALLATION)
-    
-[USAGE](https://github.com/Bram-G/README_Generator#USAGE)
-    
-[LICENSE](https://github.com/Bram-G/README_Generator#LICENSE)
-    
 ## DESCRIPTION
-A readme generator that uses javascript, node and npm inquirer to create a fully formatted readme with a table of contents, description, list of contributers, tests, questions, installation instructions, usage, license badge and text.
+boop beep
+## TABLE OF CONTENTS
+<details> 
+<summary> Table of Contents  </summary>
+
+[DESCRIPTION](idk#DESCRIPTION)
+    
+[CONTRIBUTERS](idk#CONTRIBUERS)
+    
+[TESTS](idk#TESTS)
+    
+[QUESTIONS](idk#QUESTIONS)
+    
+[INSTALLATION](idk#INSTALLATION)
+    
+[USAGE](idk#USAGE)
+    
+[LICENSE](idk#LICENSE)
+</details>    
     
 ## CONTRIBUTERS
-Bram Gibson
+me
     
 ## Tests
-Download the files, open a terminal in the folder, type "npm install", then type "node index.js" and if the prompts show up the program is working correctly.
+plop it in there
     
 ## Questions
-https://github.com/Bram-G
-https://github.com/Bram-G/README_Generator
+https://github.com/B-Herms
+idk
     
 ## INSTALLATION
-Download the javascript, open terminal in the folder, type npm install, then node index.js, and answer all of the questions. The questions will prompt you for a title, description, contributers, tests, installation, usage, what license to attach, your name, GitHub username, and GitHub repo link.
+give it a go
     
 ## USAGE
-Do you need a quick readme for your new project but don't want to go through the hassle of formatting? this project will take whatever input you can give it and turn it into a formatted readme document ready for display on GitHub.
+well
     
 ## LICENSE
-Copyright  2023 Bram Gibson
 
-            Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-            
-            The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-            
-            THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+            Copyright 2023 Bob Herman
+
+            Licensed under the Apache License, Version 2.0 (the "License");
+            you may not use this file except in compliance with the License.
+            You may obtain a copy of the License at
+         
+              http://www.apache.org/licenses/LICENSE-2.0
+         
+            Unless required by applicable law or agreed to in writing, software
+            distributed under the License is distributed on an "AS IS" BASIS,
+            WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+            See the License for the specific language governing permissions and
+            limitations under the License.
 
     
