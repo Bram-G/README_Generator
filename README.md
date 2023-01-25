@@ -37,6 +37,8 @@ Bram@Bram.Bram
     
 ## INSTALLATION
 Download the javascript, open terminal in the folder, type npm install, then node index.js, and answer all of the questions. The questions will prompt you for a title, description, contributers, tests, installation, usage, what license to attach, your name, GitHub username, and GitHub repo link.
+
+here is a [link](https://drive.google.com/file/d/1JjNsq3xH1yuO4az4zmnaft17PD2BAIfk/view) to a video showing the program in use.
     
 ## USAGE
 Do you need a quick readme for your new project but don't want to go through the hassle of formatting? this project will take whatever input you can give it and turn it into a formatted readme document ready for display on GitHub.
